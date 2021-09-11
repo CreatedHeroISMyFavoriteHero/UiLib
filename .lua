@@ -3243,7 +3243,7 @@ api["LoadedAnimation"] = function(enabled)
 			welcomeguitext.TextTransparency = welcomeguitext2.TextTransparency
 		end)
 		welcomeguitext2.Parent = welcomeguitext
-		api["CreateNotification"]("Finished Loading", "Press "..string.upper(api["GUIKeybind"]).." to open GUI", 4)
+		api["CreateNotification"]("Finished Loading", "Press "..string.upper(api["GUIKeybind"]).." to open GUI |Coded by rent#8392", 4)
 		spawn(function()
 			pcall(function()
 				wait(2.5)
